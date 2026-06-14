@@ -126,9 +126,16 @@ p {
   font-weight: 600;
 }
 
-.brand svg {
+.brand-logo {
   flex: none;
+  width: 29px;
+  height: 29px;
+  object-fit: contain;
   filter: drop-shadow(0 0 14px rgba(74, 222, 128, .24));
+}
+
+.brand-bracket {
+  color: rgba(209, 250, 229, .72);
 }
 
 .primary-nav {
